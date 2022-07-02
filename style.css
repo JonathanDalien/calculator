@@ -16,11 +16,13 @@
     grid-column: span 2;
 }
 
+
+
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 100vh;
 }
 
 .screen {
@@ -35,12 +37,12 @@
 }
 
 .screen-last {
-    height: 32px;
+    min-height: 32px;
     font-size: 20px;
 }
 
 .screen-current {
-    height: 64px;
+    min-height: 64px;
     font-size: 40px;
 }
 
@@ -50,8 +52,37 @@
     border-radius: 5px;
     background-color: #d3d3e3;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .btn:hover {
     background-color: #ddddee;
+}
+
+.btn:active {
+    background-color: #c0c0ce;
+}
+
+.clear {
+    background-color: #a7ecfd;
+}
+
+.clear:hover {
+    background-color: #bbf1ff;
+}
+
+.clear:active {
+    background-color: #98c6d1;
+}
+
+.delete {
+    background-color: #fda7a7;
+}
+
+.delete:hover {
+    background-color: #f5bdbd;
+}
+
+.delete:active {
+    background-color: #da8b8b;
 }
